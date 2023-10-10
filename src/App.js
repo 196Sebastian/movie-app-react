@@ -1,5 +1,7 @@
 import * as React from "react";
 import { useEffect } from "react";
+import "./App.css";
+import SearchIcon from "./search.svg";
 
 // 84e74c9b
 
@@ -18,9 +20,11 @@ const App = () => {
 
   return (
     <>
-      <h1>Welcome</h1>
-      <h1>Welcome</h1>
-      <h1>Welcome</h1>
+      <div className="app">
+        <h1>MovieLand</h1>
+
+        <div className="search"></div>
+      </div>
     </>
   );
 };
